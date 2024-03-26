@@ -1,5 +1,5 @@
 .laptop_container {
-  background-image: url("/assets/laptop.jpg");
+  background-image: url("../assets/laptop.jpg");
   height: 20rem;
   width: 100%;
   background-position: center;
