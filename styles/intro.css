@@ -1,0 +1,56 @@
+
+.introduction_container {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8rem 5%;
+    gap: 2rem;
+}
+
+.container_left {
+    text-align: left;
+    
+}
+
+.container_left h1 {
+    font-size: 70px;
+}
+
+.container_left--title {
+    font-size: 30px;
+    margin: 26px 0;
+}
+
+.container--text {
+    font-size: 22px;
+    color: #707070;
+    max-width: 35rem;
+    text-align: justify;
+    margin-bottom: 38px;
+}
+
+.button{
+    padding: 12px 18px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #B9125A;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button:hover {
+    background: #B9125A;
+    border: 2px solid #fff;
+}
+
+.img_introduction {
+    max-height: 35rem;
+    height: 25rem;
+}

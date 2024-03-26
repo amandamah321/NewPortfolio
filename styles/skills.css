@@ -1,0 +1,121 @@
+.mySkills {
+  text-align: center;
+  border-top: 2px #b9125a solid;
+  border-bottom: 2px #b9125a solid;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.mySkills h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 2rem;
+}
+
+.mySkills p {
+  margin: 2rem 0;
+  color: #707070;
+  font-size: 18px;
+}
+
+.skills_container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 15rem;
+  gap: 2rem;
+  justify-items: stretch;
+  animation: scroll 20s linear infinite;
+  margin-bottom: 2rem;
+}
+
+.skills_container:hover {
+  animation-play-state: paused;
+}
+
+.skillsCard {
+  padding: 15px;
+  height: 100%;
+  border: 2px solid #b9125a;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.skillsCard:hover {
+  transform: scale(1.1);
+}
+
+.skillsCard img {
+  width: 150px;
+}
+
+.skillsCard figcaption {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/********Project*********/
+
+.gallery_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.project_container {
+  display: flex;
+  width: 95vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 20px;
+  margin: 10px;
+  flex: 0.5;
+  position: relative;
+  transition: all 700ms ease-in;
+}
+
+.panel h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-weight: bold;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 3;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-145vw);
+  }
+}

@@ -1,0 +1,53 @@
+
+footer {
+    width: 100%;
+    padding: 2rem 5%;
+    background-color: #111111;
+    color: grey;
+}
+
+.top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_container p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.right_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.bottom_container p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.line_footer {
+    border: 1px solid grey;
+}
+
+.contact_column ul {
+    list-style: none;
+}
+
+.contact_column ul li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.contact_column ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.contact_column ul li a:hover {
+    margin: 5px 0;
+    cursor: pointer;
+    color: #b9125a;
+}

@@ -1,0 +1,103 @@
+@media screen and (max-width: 950px) {
+  .introduction_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  .aboutMe_right h2 {
+    font-size: 30px;
+    margin-top: 2.3rem;
+  }
+
+  .aboutMe_right p {
+    margin-top: 0.5rem;
+    padding: 0 0 2rem 2rem;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navBar_content li a {
+    margin: 0 0.5rem;
+  }
+
+  .aboutMe_container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .aboutMe_left {
+    background-color: #111111;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .aboutMe_right p {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .gallery_container {
+    width: 100vw;
+  }
+
+  .panel:nth-child(5) {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .panel:nth-child(5),
+  .panel:nth-child(6) {
+    display: none;
+  }
+
+  .navBar_content {
+    display: none;
+  }
+
+  .nav_ham_container {
+    display: block;
+  }
+
+  .fa-solid.fa-bars {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 520px) {
+  .container_left h1 {
+    font-size: 50px;
+  }
+
+  .img_introduction {
+    height: 15rem;
+    margin-top: 2rem;
+  }
+
+  .aboutMe_right p {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .mySkills h2 {
+    margin: 0;
+  }
+
+  .skillsCard img {
+    width: 80px;
+  }
+
+  .skillsCard {
+    padding: 10px;
+  }
+
+  .panel:nth-child(4) {
+    display: none;
+  }
+}
