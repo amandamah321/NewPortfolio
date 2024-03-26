@@ -73,6 +73,10 @@
     font-size: 2rem;
     cursor: pointer;
   }
+
+  .laptop_container {
+    background-position: top;
+  }
 }
 
 @media (max-width: 520px) {
@@ -108,5 +112,11 @@
 
   .panel {
     height: 40vh;
+  }
+}
+
+@media (max-width: 410px) {
+  .aboutMe_right h2 {
+    font-size: 25px;
   }
 }
