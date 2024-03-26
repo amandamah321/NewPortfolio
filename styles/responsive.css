@@ -119,4 +119,9 @@
   .aboutMe_right h2 {
     font-size: 25px;
   }
+
+  .laptop_container {
+    height: 10rem;
+
+  }
 }
