@@ -1,63 +1,36 @@
-.mySkills {
-  text-align: center;
-  border-top: 2px #b9125a solid;
+.logos {
+  padding: 2rem 5%;
   border-bottom: 2px #b9125a solid;
+  border-top: 2px #b9125a solid;
   overflow: hidden;
-  padding: 2rem 0;
+  white-space: nowrap;
 }
 
-.mySkills h2 {
-  text-transform: uppercase;
+.logo_title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo_title h2 {
   font-size: 35px;
-  margin-top: 2rem;
-}
-
-.mySkills p {
-  margin: 2rem 0;
-  color: #707070;
-  font-size: 18px;
-}
-
-.skills_container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 15rem;
-  gap: 2rem;
-  justify-items: stretch;
-  animation: scroll 20s linear infinite;
-  margin-bottom: 2rem;
-} 
-
-.skillsCard {
-  padding: 15px;
-  height: 100%;
-  border: 2px solid #b9125a;
-  border-radius: 20px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  transition-duration: 0.3s;
-}
-
-.skillsCard:hover {
-  transform: scale(1.1);
-}
-
-.skillsCard img {
-  width: 150px;
-}
-
-.skillsCard figcaption {
-  text-align: center;
-  font-size: 18px;
+  color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 10px;
 }
 
+.logo_title p {
+  font-size: 22px;
+  color: #707070;
+}
+
+.logo_slide {
+  animation: scroll 5s infinite linear;
+  display: inline-block;
+}
+
+.logo_slide img {
+  margin: 1rem 1.5rem;
+  height: 10rem;
+}
 
 /********Project*********/
 
@@ -108,10 +81,10 @@
 
 
 @keyframes scroll {
-  0% {
-    transform: translateX(100vw);
+  from {
+    transform: translateX(0);
   }
-  100% {
-    transform: translateX(-145vw);
+  to {
+    transform: translateX(-100%);
   }
 }

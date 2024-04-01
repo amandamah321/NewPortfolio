@@ -98,14 +98,6 @@
     margin: 1rem;
   }
 
-  .skillsCard img {
-    width: 80px;
-  }
-
-  .skillsCard {
-    padding: 10px;
-  }
-
   .panel:nth-child(4) {
     display: none;
   }
@@ -113,6 +105,12 @@
   .panel {
     height: 40vh;
   }
+
+  .logo_title p {
+    font-size: 18px;
+    white-space: wrap;
+  }
+
 }
 
 @media (max-width: 410px) {
@@ -122,6 +120,5 @@
 
   .laptop_container {
     height: 10rem;
-
   }
 }

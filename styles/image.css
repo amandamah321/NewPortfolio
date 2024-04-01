@@ -2,10 +2,10 @@
   background-image: url("../assets/laptop.jpg");
   height: 20rem;
   width: 100%;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   border-bottom: 2px #b9125a solid;
   border-top: 2px #b9125a solid;
+
 }
