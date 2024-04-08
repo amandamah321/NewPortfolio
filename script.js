@@ -54,3 +54,6 @@ menu_ham.addEventListener("click", () => {
     ham_content.innerHTML = "";
   }
 });
+
+
+/*****Animation***/

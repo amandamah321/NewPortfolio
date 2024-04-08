@@ -110,7 +110,6 @@
     font-size: 18px;
     white-space: wrap;
   }
-
 }
 
 @media (max-width: 410px) {
@@ -121,4 +120,25 @@
   .laptop_container {
     height: 10rem;
   }
+}
+
+/**Scroll Bar*/
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b9125a;
+  border-radius: 10px;
 }
