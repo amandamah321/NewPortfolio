@@ -55,5 +55,18 @@ menu_ham.addEventListener("click", () => {
   }
 });
 
+/*****Animation Aside***/
 
-/*****Animation***/
+const sections = document.querySelectorAll('.animationAside');
+
+window.onscroll = () => {
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 700;
+    let height = sec.offsetHeight;
+
+    if (top >= offset && top < offset + height) {
+      sec.classList.add('show_animation');
+    }
+  })
+}

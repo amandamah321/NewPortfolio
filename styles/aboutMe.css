@@ -1,58 +1,75 @@
-
 .aboutMe_container {
-    height: 85vh;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin: 0 5%;
-    text-align: center;
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 5%;
+  text-align: center;
 }
 
 .aboutMe_left {
-    display: grid;
-    height: inherit;
-    grid-template-rows: 100px 2fr;
-    background-color: #111111;
-    justify-content: center;
-    padding: 0 1.5rem;
+  display: grid;
+  height: inherit;
+  grid-template-rows: 100px 2fr;
+  background-color: #111111;
+  justify-content: center;
+  padding: 0 1.5rem;
 }
 
 .aboutMe_left h2 {
-    color: #B9125A;
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-top: 2rem;
+  color: #b9125a;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 2rem;
 }
 
 .aboutMe_left ul li {
-    list-style: none;
-    margin: 2rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+  list-style: none;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .icon--style {
-    color: #B9125A;
-    font-size: 20px;
-    margin: 0 10px;
-    width: 25px;
+  color: #b9125a;
+  font-size: 20px;
+  margin: 0 10px;
+  width: 25px;
 }
 
 .aboutMe_right {
-    display: grid;
-    grid-template-rows: 100px 2fr;
+  display: grid;
+  grid-template-rows: 100px 2fr;
+  overflow: hidden;
 }
 
 .aboutMe_right h2 {
-    font-size: 35px;
-    color: #fff;
-    margin-top: 2rem;
+  font-size: 35px;
+  color: #fff;
+  margin-top: 2rem;
 }
 
 .aboutMe_right p {
-    margin-top: 2rem;
-    padding: 0 0 2rem 2rem;
-    text-align: justify;
-    color: #707070;
-    font-size: 18px;
+  margin-top: 2rem;
+  padding: 0 0 2rem 2rem;
+  text-align: justify;
+  color: #707070;
+  font-size: 18px;
+  /*animation: movingAside 1s linear;*/
+}
+
+.show_animation {
+  animation: movingAside 1.5s linear;
+}
+
+
+@keyframes movingAside {
+  0% {
+    transform: translate(8vw, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0vw, 0);
+    opacity: 1;
+  }
 }
