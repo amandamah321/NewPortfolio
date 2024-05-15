@@ -8,6 +8,7 @@
     <title>Amanda | Porfolio</title>
     <link rel="stylesheet" href="./styles/global.css">
     <script src="https://kit.fontawesome.com/7819412f9b.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
 
             <ul class="navBar_content">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#aboutMe">About</a></li>   
+                <li><a href="#aboutMe">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
@@ -32,10 +33,10 @@
                 <i class="fa-solid fa-bars"></i>
 
                 <nav class="ham_content">
-                    
+
                 </nav>
             </div>
-            
+
         </nav>
     </header>
 
@@ -43,14 +44,22 @@
         <section class="introduction_container" id="home">
             <div class="container_left">
                 <h1>Hello World !</h1>
-                <p class="container_left--title typing">Future Web Developer and Software Engineer</p>
+
+                <div class="container_left-subTitle">
+                    <p>
+                        <span class="subTitle">Future</span>
+                        <span class="typed-text"></span>
+                    </p>
+                </div>
+
+
                 <p class="container--text">I've been studying really hard in order to improve my skills and be able to
                     become a Full-Stack developer and a software engineer, I'm currently studying Software engineering.
                 </p>
                 <span class="button">
-                    <a  href="https://amandamah321.github.io/cv/" target="_blank">See CV</a>
+                    <a href="https://amandamah321.github.io/cv/" target="_blank">See CV</a>
                 </span>
-                
+
             </div>
             <figure>
                 <img class="img_introduction" src="./assets/MainPicture.png" alt="Photo of mine">
@@ -96,55 +105,40 @@
             <div class="logo_title">
                 <h2>My skills</h2>
                 <p>I have experience with these technologies</p>
-            </div> 
+            </div>
 
             <div class="logo_slide">
                 <img src="./assets/languagesImg/html.png" alt="HTML picture">
                 <img src="./assets/languagesImg/css.png" alt="CSS picture">
                 <img src="./assets/languagesImg/js.png" alt="JavaScript picture">
-                <img src="./assets/languagesImg/TypeScript.webp" alt="TypeScript picture">
-                <img src="./assets/languagesImg/Angular.png" alt="Angular picture">
-                <img src="./assets/languagesImg/React.png" alt="React picture">
+                <img src="./assets/languagesImg/typescript.png" alt="TypeScript picture">
+                <img src="./assets/languagesImg/angular.png" alt="Angular picture">
+                <img src="./assets/languagesImg/react.png" alt="React picture">
                 <img src="./assets/languagesImg/Python.png" alt="Python picture">
-                <img src="./assets/languagesImg/SQL.png" alt="SQL picture">
+                <img src="./assets/languagesImg/sql.png" alt="SQL picture">
             </div>
             <div class="logo_slide">
                 <img src="./assets/languagesImg/html.png" alt="HTML picture">
                 <img src="./assets/languagesImg/css.png" alt="CSS picture">
                 <img src="./assets/languagesImg/js.png" alt="JavaScript picture">
-                <img src="./assets/languagesImg/TypeScript.webp" alt="TypeScript picture">
-                <img src="./assets/languagesImg/Angular.png" alt="Angular picture">
-                <img src="./assets/languagesImg/React.png" alt="React picture">
-                <img src="./assets/languagesImg/Python.png" alt="Python picture">
-                <img src="./assets/languagesImg/SQL.png" alt="SQL picture">
+                <img src="./assets/languagesImg/typescript.png" alt="TypeScript picture">
+                <img src="./assets/languagesImg/angular.png" alt="Angular picture">
+                <img src="./assets/languagesImg/react.png" alt="React picture">
+                <img src="./assets/languagesImg/python.png" alt="Python picture">
+                <img src="./assets/languagesImg/sql.png" alt="SQL picture">
             </div>
 
         </section>
 
 
-        <section class="gallery_container" id="projects">
-            <div class="project_container">
-                <div class="panel active" style="background-image: url(./assets/projects/Weather_App.png)">
-                    <h3>Weather App | Project</h3>
-                </div>
-                <div class="panel" style="background-image: url(./assets/projects/quiz.png)">
-                    <h3>Quiz | Project</h3>
-                </div>
-                <div class="panel" style="background-image: url(./assets/projects/dictionary.png)">
-                    <h3>Dictionary - EN | Project</h3>
-                </div>
-                <div class="panel" style="background-image: url(./assets/projects/HBO_clone.png)">
-                    <h3>HBO Max Clone | Project</h3>
-                </div>
-                <div class="panel" style="background-image: url(./assets/projects/ecommerce.png)">
-                    <h3>Ecommerce Landing Page | Project</h3>
-                </div>
-                <div class="panel" style="background-image: url(./assets/projects/To-do-list.png)">
-                    <h3>To Do List | Project</h3>
-                </div>
-            </div>
+        <!--PROJETOS-->
 
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-section"></div>
         </section>
+
+
     </main>
 
 
@@ -177,8 +171,9 @@
         </div>
 
     </footer>
+
 </body>
 
-<script src="./script.js"></script>
+
 
 </html>

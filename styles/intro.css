@@ -15,12 +15,16 @@
   font-size: 70px;
 }
 
-.container_left--title {
-  font-size: 30px;
+.subTitle {
+  color: #b9125a;
+}
+
+.container_left-subTitle {
+  font-size: 40px;
   margin: 26px 0;
 }
 
-.container_left--title::after {
+.typed-text::after {
   content: "|";
   margin-left: 5px;
   opacity: 1;
