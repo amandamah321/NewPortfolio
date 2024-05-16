@@ -1,9 +1,10 @@
 .logos {
-  padding: 2rem 5%;
+  padding: 2rem 0;
   border-bottom: 2px #b9125a solid;
   border-top: 2px #b9125a solid;
   overflow: hidden;
   white-space: nowrap;
+  text-align: center;
 }
 
 .logo_title {
@@ -28,16 +29,25 @@
 }
 
 .logo_slide img {
-  margin: 1rem 1.5rem;
-  height: 10rem;
+  margin: 1rem 0.5rem;
+  height: 5rem;
 }
 
 
 @keyframes scroll {
-  from {
-    transform: translateX(0);
+  0% {
+    transform: translateX(0vw);
   }
-  to {
-    transform: translateX(-100%);
+  25% {
+    transform: translateX(30vw);
+  }
+  50% {
+    transform: translateX(0vw);
+  }
+  75% {
+    transform: translateX(-30vw);
+  }
+  100% {
+    transform: translateX(0vw);
   }
 }

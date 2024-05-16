@@ -110,6 +110,16 @@
     font-size: 18px;
     white-space: wrap;
   }
+
+  .project-image {
+    max-width: 90%;
+    max-height: 18rem;
+  }
+
+  .project-description p {
+    font-size: 16px;
+    padding: 0 2rem;
+  }
 }
 
 @media (max-width: 410px) {
@@ -119,6 +129,10 @@
 
   .laptop_container {
     height: 10rem;
+  }
+
+  .logo_title h2 {
+    font-size: 20px;
   }
 }
 

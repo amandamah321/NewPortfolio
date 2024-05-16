@@ -83,7 +83,7 @@ var data = [
   {
     title: "Real State Agency Website",
     textDesc: "This project was crafted as an Angular project, designed to enhance proficiency in using Angular components",
-    skill: ["angular", "js"],
+    skill: ["angular", "js", "css"],
     imageUrl: "realstate",
   },
   
